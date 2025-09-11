@@ -1,0 +1,6 @@
+name=input('Enter your name: ')
+name=name.strip()
+print(name.upper())
+print(name.lower())
+print('Your name has {} letters'.format(len(name.replace(' ', ''))))
+print('Your first name has {} letters'.format(name.find(' ')))
