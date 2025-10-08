@@ -36,16 +36,16 @@ while True:
     operation = input('Select the operation:\n[ +  -  *  / ]\n')
 
     if operation == "+":
-        print(f'The result is: {add(num1, num2)}')
+        print(f'The result is: {add(num1, num2):.2f}')
     elif operation == "-":
-        print(f'The result is: {subtract(num1, num2)}')
+        print(f'The result is: {subtract(num1, num2):.2f}')
     elif operation == "*":
-        print(f'The result is: {multiply(num1, num2)}')
+        print(f'The result is: {multiply(num1, num2):.2f}')
     elif operation == "/":
         if num2 == 0:
             print("You can't divide by zero!")
         else:
-            print(f'The result is: {divide(num1, num2)}')
+            print(f'The result is: {divide(num1, num2):.2f}')
     else:
         print('Invalid operation!')
 
